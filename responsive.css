@@ -25,7 +25,7 @@
   }
   
   .btn {
-    width: 100%;
+    width: 70%;
   }
   
   .facebook {
@@ -42,7 +42,7 @@
   }
   
   /* Add CSS for menu-icon */
-  .menu-icon{
+  #menu-icon{
     display:block;
   }
   
