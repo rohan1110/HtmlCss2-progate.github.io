@@ -93,6 +93,7 @@ header {
 .logo {
   width: 124px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .header-left {
@@ -101,7 +102,6 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
 }
 
 .header-right a {
@@ -118,7 +118,7 @@ header {
 }
 
 /* Add CSS for menu-icon */
-.menu-icon {
+#menu-icon {
   color: white;
   float: right;
   font-size: 25px;
@@ -144,6 +144,11 @@ header {
 
 .heading h2 {
   font-weight: normal;
+}
+
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .lesson {
